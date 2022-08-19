@@ -30,7 +30,8 @@
 
 .header-menu__icon-item {
   margin-bottom: 13px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   width: 60px;
   height: 60px;
 }
@@ -61,48 +62,60 @@
     width: 50px;
     height: 50px;
   }
+
   .header-menu__item {
     font-size: 10px;
   }
 }
+
 @media (max-width: 600px) {
   .header-menu__icon-item {
     width: 40px;
     height: 40px;
   }
+
   .header-menu__item {
     font-size: 8px;
   }
+
   .header-stop-war__uk-icon {
     width: 15px;
     height: 15px;
   }
+
   .header-stop-war__content {
     font-size: 12px;
     line-height: 120%;
   }
+
   .header-menu__item {
     margin: 2px;
   }
+
   .header__menu {
     margin: -2px;
   }
+
   .header__row {
     padding-top: 20px;
     margin: 0;
   }
+
   .header__stop-war {
     margin: 0;
   }
 }
+
 @media (max-width: 315px) {
   .header__r-part {
     display: none;
   }
+
   .header__l-part {
     flex: 1 1 auto;
     max-width: 100%;
   }
+
   .header-menu {
     flex: 1 1 auto;
     max-width: 100%;
