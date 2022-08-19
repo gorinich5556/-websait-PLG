@@ -1440,11 +1440,14 @@ body {
     flex-direction: column;
   }
 
-  .concert__poster {
+  .concert__poster .concert__poster {
+    left: 50%;
     max-width: 306px;
     max-height: 414px;
+    /* margin: 0px auto; */
     margin-top: 34px;
-    transform: scale(1);
+    transform: scale(1) translate(-50%, 0px);
+    /* position: absolute; */
   }
 
   .concert__row {
